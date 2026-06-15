@@ -773,22 +773,26 @@ a:hover {
 /* mascot image（ドット絵アセット） */
 .mascot-image {
   image-rendering: pixelated;
+  image-rendering: crisp-edges;
   display: block;
   border-radius: var(--radius-md);
   border: 2.5px solid var(--ink);
   box-shadow: 6px 6px 0 var(--ink);
   background: var(--paper);
   max-width: 100%;
-  height: auto;
+  width: 384px;
+  height: 384px;
+  object-fit: contain;
 }
 .mascot-image--hero {
-  width: 288px;
-  height: 288px;
+  width: 384px;
+  height: 384px;
 }
 @media (max-width: 880px) {
+  .mascot-image,
   .mascot-image--hero {
-    width: 220px;
-    height: 220px;
+    width: 288px;
+    height: 288px;
   }
 }
 

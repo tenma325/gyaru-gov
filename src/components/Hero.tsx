@@ -35,8 +35,8 @@ export function Hero() {
               src="/mascot-pixel.png"
               alt="ドット絵のギャル職員「ガル子」"
               className="mascot-image mascot-image--hero"
-              width={288}
-              height={288}
+              width={384}
+              height={384}
             />
           </div>
           <span className="stamp" style={{ position: 'absolute', bottom: '-12px', right: '4px' }}>

@@ -17,8 +17,8 @@ export function Mascot() {
                 src="/mascot-pixel.png"
                 alt="ドット絵のギャル職員「ガル子」"
                 className="mascot-image"
-                width={256}
-                height={256}
+                width={384}
+                height={384}
               />
             </div>
             <p className="mascot__name">{mascot.name}</p>
