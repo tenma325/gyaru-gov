@@ -1,0 +1,11 @@
+node_modules
+dist
+*.tsbuildinfo
+.DS_Store
+serve
+assets/marin_ref.png
+assets/marin_bust.png
+assets/marin_pixel_raw.png
+assets/marin_bust_pixel.png
+assets/marin_bust_snes.png
+
