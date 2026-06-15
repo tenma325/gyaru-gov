@@ -783,6 +783,9 @@ a:hover {
   width: 384px;
   height: 384px;
   object-fit: contain;
+  /* Retinaディスプレイでもドット絵をシャープに保つ */
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: none;
 }
 .mascot-image--hero {
   width: 384px;

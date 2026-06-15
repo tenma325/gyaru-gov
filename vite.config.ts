@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// 相対 base にしておくと vite preview / 静的ホスティング / GitHub Pages の
-// いずれでもアセット参照が壊れない（kawaii-site は固定 base だが本サイトは可搬性優先）
+// GitHub Pages ではリポジトリ名の prefix が必要。
+// 相対パス('./')は index.html の配置場所によって壊れるため、固定 base にする。
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/gyaru-gov/',
 })

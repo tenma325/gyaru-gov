@@ -14,7 +14,7 @@ export function Mascot() {
             <div className="mascot__stage">
               <div className="mascot__plate" />
               <img
-                src="/mascot-pixel.png"
+                src={import.meta.env.BASE_URL + "mascot-pixel.png"}
                 alt="ドット絵のギャル職員「ガル子」"
                 className="mascot-image"
                 width={384}

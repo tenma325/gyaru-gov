@@ -32,7 +32,7 @@ export function Hero() {
         <div className="hero__stage">
           <div className="frag frag--halftone frag--live" style={{ padding: 'var(--space-md)' }}>
             <img
-              src="/mascot-pixel.png"
+              src={import.meta.env.BASE_URL + "mascot-pixel.png"}
               alt="ドット絵のギャル職員「ガル子」"
               className="mascot-image mascot-image--hero"
               width={384}
